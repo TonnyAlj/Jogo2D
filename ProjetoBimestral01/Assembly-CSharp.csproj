@@ -36,13 +36,18 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\GameOverController.cs" />
      <Compile Include="Assets\Scripts\ControllerCamera.cs" />
      <Compile Include="Assets\Scripts\PlayerMoviment2D.cs" />
+     <Compile Include="Assets\Scripts\PlataformInvert.cs" />
      <Compile Include="Assets\Scripts\ControllerMenu.cs" />
      <Compile Include="Assets\Scripts\TrapController.cs" />
      <Compile Include="Assets\Scripts\ColetableController.cs" />
+     <Compile Include="Assets\Scripts\NextLevelController.cs" />
+     <Compile Include="Assets\Scripts\EndPoint.cs" />
      <Compile Include="Assets\Scripts\FallingPlataform.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\TrampolineController.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

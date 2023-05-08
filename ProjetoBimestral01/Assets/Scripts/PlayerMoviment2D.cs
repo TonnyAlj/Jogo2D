@@ -100,4 +100,20 @@ public class PlayerMoviment2D : MonoBehaviour
             jumping = false;
         }
     }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Plataform")
+        {
+            gameObject.transform.parent =  collision.transform;
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Plataform")
+        {
+            gameObject.transform.parent = null;
+        }
+    }
 }
